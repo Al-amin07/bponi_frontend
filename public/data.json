@@ -1,0 +1,438 @@
+{
+  "restaurant": {
+    "name": "Gourmet Haven",
+    "deliveryTime": "35-40",
+    "reviews": {
+      "rating": 4.8,
+      "count": 125
+    },
+    "image": "https://example.com/images/gourmet-haven.jpg",
+    "menu": [
+      {
+        "category": "Salads",
+        "items": [
+          {
+            "id": "salad1",
+            "name": "Caesar Salad",
+            "description": "Crisp romaine lettuce, croutons, and Parmesan cheese served with Caesar dressing.",
+            "price": 8.99,
+            "isAvailable": true,
+            "weight": "200g"
+          },
+          {
+            "id": "salad2",
+            "name": "Greek Salad",
+            "description": "A mix of fresh vegetables, olives, feta cheese, and a light vinaigrette.",
+            "price": 7.99,
+            "isAvailable": true,
+            "weight": "250g"
+          },
+          {
+            "id": "salad3",
+            "name": "Caprese Salad",
+            "description": "Tomatoes, mozzarella, and basil drizzled with olive oil.",
+            "price": 6.99,
+            "isAvailable": true,
+            "weight": "180g"
+          },
+          {
+            "id": "salad4",
+            "name": "Kale Salad",
+            "description": "Fresh kale, almonds, and cranberries tossed with vinaigrette.",
+            "price": 8.49,
+            "isAvailable": true,
+            "weight": "220g"
+          },
+          {
+            "id": "salad5",
+            "name": "Quinoa Salad",
+            "description": "Protein-packed quinoa with cucumbers, tomatoes, and mint.",
+            "price": 9.49,
+            "isAvailable": true,
+            "weight": "230g"
+          },
+          {
+            "id": "salad6",
+            "name": "Cobb Salad",
+            "description": "Chicken, bacon, avocado, eggs, and blue cheese over greens.",
+            "price": 10.99,
+            "isAvailable": true,
+            "weight": "300g"
+          },
+          {
+            "id": "salad7",
+            "name": "Spinach Salad",
+            "description": "Baby spinach, strawberries, walnuts, and balsamic vinaigrette.",
+            "price": 7.99,
+            "isAvailable": true,
+            "weight": "220g"
+          },
+          {
+            "id": "salad8",
+            "name": "Asian Salad",
+            "description": "Mixed greens, mandarin oranges, and sesame ginger dressing.",
+            "price": 8.99,
+            "isAvailable": true,
+            "weight": "210g"
+          },
+          {
+            "id": "salad9",
+            "name": "Pasta Salad",
+            "description": "Cold pasta with vegetables and Italian dressing.",
+            "price": 6.49,
+            "isAvailable": true,
+            "weight": "250g"
+          },
+          {
+            "id": "salad10",
+            "name": "Chicken Caesar Salad",
+            "description": "Grilled chicken on classic Caesar salad.",
+            "price": 10.49,
+            "isAvailable": true,
+            "weight": "280g"
+          }
+        ]
+      },
+      {
+        "category": "Burgers",
+        "items": [
+          {
+            "id": "burger1",
+            "name": "Classic Cheeseburger",
+            "description": "Grilled beef patty, cheddar cheese, lettuce, tomato, and special sauce.",
+            "price": 10.99,
+            "isAvailable": true,
+            "weight": "350g"
+          },
+          {
+            "id": "burger2",
+            "name": "Bacon Cheeseburger",
+            "description": "Beef patty topped with bacon and cheddar.",
+            "price": 11.99,
+            "isAvailable": true,
+            "weight": "370g"
+          },
+          {
+            "id": "burger3",
+            "name": "Veggie Burger",
+            "description": "Plant-based patty with lettuce, tomato, avocado, and vegan mayo.",
+            "price": 9.99,
+            "isAvailable": true,
+            "weight": "330g"
+          },
+          {
+            "id": "burger4",
+            "name": "Mushroom Swiss Burger",
+            "description": "Beef patty with sautéed mushrooms and Swiss cheese.",
+            "price": 12.49,
+            "isAvailable": true,
+            "weight": "360g"
+          },
+          {
+            "id": "burger5",
+            "name": "BBQ Burger",
+            "description": "Beef patty with BBQ sauce, onion rings, and cheddar.",
+            "price": 11.49,
+            "isAvailable": true,
+            "weight": "380g"
+          },
+          {
+            "id": "burger6",
+            "name": "Spicy Jalapeno Burger",
+            "description": "Beef patty with spicy jalapenos and pepper jack cheese.",
+            "price": 11.99,
+            "isAvailable": true,
+            "weight": "350g"
+          },
+          {
+            "id": "burger7",
+            "name": "Double Patty Burger",
+            "description": "Two beef patties with all the fixings.",
+            "price": 14.99,
+            "isAvailable": true,
+            "weight": "500g"
+          },
+          {
+            "id": "burger8",
+            "name": "Chicken Burger",
+            "description": "Grilled chicken breast with lettuce and mayo.",
+            "price": 10.49,
+            "isAvailable": true,
+            "weight": "320g"
+          },
+          {
+            "id": "burger9",
+            "name": "Fish Burger",
+            "description": "Crispy fish fillet with tartar sauce.",
+            "price": 11.49,
+            "isAvailable": true,
+            "weight": "330g"
+          },
+          {
+            "id": "burger10",
+            "name": "Breakfast Burger",
+            "description": "Beef patty with egg, bacon, and hashbrowns.",
+            "price": 12.99,
+            "isAvailable": true,
+            "weight": "420g"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "id": "dessert1",
+            "name": "Chocolate Lava Cake",
+            "description": "Warm chocolate cake with a molten center.",
+            "price": 5.99,
+            "isAvailable": true,
+            "weight": "180g"
+          },
+          {
+            "id": "dessert2",
+            "name": "Tiramisu",
+            "description": "Layers of coffee-soaked ladyfingers and mascarpone cream.",
+            "price": 6.99,
+            "isAvailable": true,
+            "weight": "200g"
+          },
+          {
+            "id": "dessert3",
+            "name": "Cheesecake",
+            "description": "Classic New York-style cheesecake.",
+            "price": 7.49,
+            "isAvailable": true,
+            "weight": "220g"
+          },
+          {
+            "id": "dessert4",
+            "name": "Brownie Sundae",
+            "description": "Warm brownie topped with ice cream and chocolate syrup.",
+            "price": 6.99,
+            "isAvailable": true,
+            "weight": "210g"
+          },
+          {
+            "id": "dessert5",
+            "name": "Apple Pie",
+            "description": "Traditional apple pie with cinnamon.",
+            "price": 5.49,
+            "isAvailable": true,
+            "weight": "240g"
+          },
+          {
+            "id": "dessert6",
+            "name": "Banana Split",
+            "description": "Banana with ice cream, whipped cream, and toppings.",
+            "price": 7.99,
+            "isAvailable": true,
+            "weight": "250g"
+          },
+          {
+            "id": "dessert7",
+            "name": "Ice Cream",
+            "description": "Three scoops of your favorite flavor.",
+            "price": 4.49,
+            "isAvailable": true,
+            "weight": "150g"
+          },
+          {
+            "id": "dessert8",
+            "name": "Panna Cotta",
+            "description": "Italian dessert with creamy vanilla custard.",
+            "price": 5.99,
+            "isAvailable": true,
+            "weight": "180g"
+          },
+          {
+            "id": "dessert9",
+            "name": "Creme Brulee",
+            "description": "Rich custard with a caramelized sugar crust.",
+            "price": 6.49,
+            "isAvailable": true,
+            "weight": "190g"
+          },
+          {
+            "id": "dessert10",
+            "name": "Macarons",
+            "description": "Assorted French macarons.",
+            "price": 5.99,
+            "isAvailable": true,
+            "weight": "100g"
+          }
+        ]
+      },
+      {
+        "category": "Pizzas",
+        "items": [
+          {
+            "id": "pizza1",
+            "name": "Margherita Pizza",
+            "description": "Classic pizza with mozzarella, basil, and tomato sauce.",
+            "price": 10.99,
+            "isAvailable": true,
+            "weight": "500g"
+          },
+          {
+            "id": "pizza2",
+            "name": "Pepperoni Pizza",
+            "description": "Pizza topped with pepperoni and mozzarella cheese.",
+            "price": 11.99,
+            "isAvailable": true,
+            "weight": "520g"
+          },
+          {
+            "id": "pizza3",
+            "name": "BBQ Chicken Pizza",
+            "description": "Grilled chicken, BBQ sauce, and red onions.",
+            "price": 12.49,
+            "isAvailable": true,
+            "weight": "530g"
+          },
+          {
+            "id": "pizza4",
+            "name": "Veggie Supreme Pizza",
+            "description": "Loaded with bell peppers, mushrooms, onions, and olives.",
+            "price": 11.49,
+            "isAvailable": true,
+            "weight": "510g"
+          },
+          {
+            "id": "pizza5",
+            "name": "Hawaiian Pizza",
+            "description": "Ham and pineapple with mozzarella cheese.",
+            "price": 11.99,
+            "isAvailable": true,
+            "weight": "500g"
+          },
+          {
+            "id": "pizza6",
+            "name": "Four Cheese Pizza",
+            "description": "A blend of mozzarella, cheddar, Parmesan, and blue cheese.",
+            "price": 12.99,
+            "isAvailable": true,
+            "weight": "550g"
+          },
+          {
+            "id": "pizza7",
+            "name": "Meat Lover's Pizza",
+            "description": "Pepperoni, sausage, bacon, and beef.",
+            "price": 13.49,
+            "isAvailable": true,
+            "weight": "560g"
+          },
+          {
+            "id": "pizza8",
+            "name": "Buffalo Chicken Pizza",
+            "description": "Buffalo sauce, chicken, and ranch dressing.",
+            "price": 12.49,
+            "isAvailable": true,
+            "weight": "540g"
+          },
+          {
+            "id": "pizza9",
+            "name": "Seafood Pizza",
+            "description": "Shrimp, crab, and anchovies with garlic sauce.",
+            "price": 14.99,
+            "isAvailable": true,
+            "weight": "580g"
+          },
+          {
+            "id": "pizza10",
+            "name": "Pesto Pizza",
+            "description": "Pesto sauce, mozzarella, and sun-dried tomatoes.",
+            "price": 12.49,
+            "isAvailable": true,
+            "weight": "530g"
+          }
+        ]
+      },
+      {
+        "category": "Pastas",
+        "items": [
+          {
+            "id": "pasta1",
+            "name": "Spaghetti Carbonara",
+            "description": "Spaghetti with creamy sauce, pancetta, and Parmesan.",
+            "price": 10.99,
+            "isAvailable": true,
+            "weight": "350g"
+          },
+          {
+            "id": "pasta2",
+            "name": "Penne Arrabbiata",
+            "description": "Penne pasta with spicy tomato sauce.",
+            "price": 9.99,
+            "isAvailable": true,
+            "weight": "360g"
+          },
+          {
+            "id": "pasta3",
+            "name": "Fettuccine Alfredo",
+            "description": "Fettuccine pasta with creamy Alfredo sauce.",
+            "price": 11.49,
+            "isAvailable": true,
+            "weight": "380g"
+          },
+          {
+            "id": "pasta4",
+            "name": "Lasagna",
+            "description": "Layers of pasta, ground beef, cheese, and tomato sauce.",
+            "price": 12.99,
+            "isAvailable": true,
+            "weight": "400g"
+          },
+          {
+            "id": "pasta5",
+            "name": "Pasta Primavera",
+            "description": "Pasta with mixed vegetables in a light garlic sauce.",
+            "price": 10.49,
+            "isAvailable": true,
+            "weight": "370g"
+          },
+          {
+            "id": "pasta6",
+            "name": "Seafood Linguine",
+            "description": "Linguine pasta with shrimp, scallops, and a white wine sauce.",
+            "price": 14.49,
+            "isAvailable": true,
+            "weight": "420g"
+          },
+          {
+            "id": "pasta7",
+            "name": "Baked Ziti",
+            "description": "Ziti pasta baked with marinara sauce and melted cheese.",
+            "price": 11.99,
+            "isAvailable": true,
+            "weight": "390g"
+          },
+          {
+            "id": "pasta8",
+            "name": "Penne Vodka",
+            "description": "Penne pasta with a creamy vodka sauce.",
+            "price": 11.49,
+            "isAvailable": true,
+            "weight": "380g"
+          },
+          {
+            "id": "pasta9",
+            "name": "Ravioli",
+            "description": "Stuffed pasta with ricotta cheese and marinara sauce.",
+            "price": 10.99,
+            "isAvailable": true,
+            "weight": "350g"
+          },
+          {
+            "id": "pasta10",
+            "name": "Gnocchi",
+            "description": "Potato gnocchi with a sage butter sauce.",
+            "price": 12.49,
+            "isAvailable": true,
+            "weight": "370g"
+          }
+        ]
+      }
+    ]
+  }
+}

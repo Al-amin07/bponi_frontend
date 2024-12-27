@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Gourmet Haven",
+    "deliveryTime": "35-40",
+    "reviews": {
+      "rating": 4.8,
+      "count": 125
+    },
+    "image": "https://example.com/images/gourmet-haven.jpg",
+    "menu": []
+  },
+  {
+    "id": 2,
+    "name": "The Spicy Spoon",
+    "deliveryTime": "20-30",
+    "reviews": {
+      "rating": 4.5,
+      "count": 200
+    },
+    "image": "https://example.com/images/spicy-spoon.jpg",
+    "menu": []
+  },
+  {
+    "id": 3,
+    "name": "Ocean Breeze",
+    "deliveryTime": "40-50",
+    "reviews": {
+      "rating": 4.7,
+      "count": 180
+    },
+    "image": "https://example.com/images/ocean-breeze.jpg",
+    "menu": []
+  },
+  {
+    "id": 4,
+    "name": "Urban Deli",
+    "deliveryTime": "25-35",
+    "reviews": {
+      "rating": 4.6,
+      "count": 150
+    },
+    "image": "https://example.com/images/urban-deli.jpg",
+    "menu": []
+  },
+  {
+    "id": 5,
+    "name": "The Pasta Corner",
+    "deliveryTime": "30-40",
+    "reviews": {
+      "rating": 4.9,
+      "count": 220
+    },
+    "image": "https://example.com/images/pasta-corner.jpg",
+    "menu": []
+  },
+  {
+    "id": 6,
+    "name": "Sushi Express",
+    "deliveryTime": "15-25",
+    "reviews": {
+      "rating": 4.8,
+      "count": 175
+    },
+    "image": "https://example.com/images/sushi-express.jpg",
+    "menu": []
+  },
+  {
+    "id": 7,
+    "name": "Taco Fiesta",
+    "deliveryTime": "20-30",
+    "reviews": {
+      "rating": 4.4,
+      "count": 130
+    },
+    "image": "https://example.com/images/taco-fiesta.jpg",
+    "menu": []
+  },
+  {
+    "id": 8,
+    "name": "Grill & Chill",
+    "deliveryTime": "30-45",
+    "reviews": {
+      "rating": 4.7,
+      "count": 210
+    },
+    "image": "https://example.com/images/grill-chill.jpg",
+    "menu": []
+  },
+  {
+    "id": 9,
+    "name": "Vegan Vibes",
+    "deliveryTime": "25-35",
+    "reviews": {
+      "rating": 4.9,
+      "count": 145
+    },
+    "image": "https://example.com/images/vegan-vibes.jpg",
+    "menu": []
+  },
+  {
+    "id": 10,
+    "name": "Dessert Paradise",
+    "deliveryTime": "15-20",
+    "reviews": {
+      "rating": 4.8,
+      "count": 190
+    },
+    "image": "https://example.com/images/dessert-paradise.jpg",
+    "menu": []
+  },
+  {
+    "id": 11,
+    "name": "Fusion Bites",
+    "deliveryTime": "25-30",
+    "reviews": {
+      "rating": 4.6,
+      "count": 110
+    },
+    "image": "https://example.com/images/fusion-bites.jpg",
+    "menu": []
+  },
+  {
+    "id": 12,
+    "name": "The Burger Barn",
+    "deliveryTime": "20-25",
+    "reviews": {
+      "rating": 4.7,
+      "count": 230
+    },
+    "image": "https://example.com/images/burger-barn.jpg",
+    "menu": []
+  },
+  {
+    "id": 13,
+    "name": "Pancake House",
+    "deliveryTime": "30-35",
+    "reviews": {
+      "rating": 4.5,
+      "count": 140
+    },
+    "image": "https://example.com/images/pancake-house.jpg",
+    "menu": []
+  },
+  {
+    "id": 14,
+    "name": "Noodle Nirvana",
+    "deliveryTime": "25-30",
+    "reviews": {
+      "rating": 4.8,
+      "count": 120
+    },
+    "image": "https://example.com/images/noodle-nirvana.jpg",
+    "menu": []
+  },
+  {
+    "id": 15,
+    "name": "Pizza Perfection",
+    "deliveryTime": "20-30",
+    "reviews": {
+      "rating": 4.9,
+      "count": 260
+    },
+    "image": "https://example.com/images/pizza-perfection.jpg",
+    "menu": []
+  },
+  {
+    "id": 16,
+    "name": "Asian Delight",
+    "deliveryTime": "35-45",
+    "reviews": {
+      "rating": 4.8,
+      "count": 180
+    },
+    "image": "https://example.com/images/asian-delight.jpg",
+    "menu": []
+  },
+  {
+    "id": 17,
+    "name": "BBQ Bliss",
+    "deliveryTime": "25-35",
+    "reviews": {
+      "rating": 4.6,
+      "count": 170
+    },
+    "image": "https://example.com/images/bbq-bliss.jpg",
+    "menu": []
+  },
+  {
+    "id": 18,
+    "name": "Curry Express",
+    "deliveryTime": "20-30",
+    "reviews": {
+      "rating": 4.7,
+      "count": 195
+    },
+    "image": "https://example.com/images/curry-express.jpg",
+    "menu": []
+  },
+  {
+    "id": 19,
+    "name": "Taste of Italy",
+    "deliveryTime": "25-35",
+    "reviews": {
+      "rating": 4.9,
+      "count": 250
+    },
+    "image": "https://example.com/images/taste-of-italy.jpg",
+    "menu": []
+  },
+  {
+    "id": 20,
+    "name": "Waffle World",
+    "deliveryTime": "15-20",
+    "reviews": {
+      "rating": 4.8,
+      "count": 130
+    },
+    "image": "https://example.com/images/waffle-world.jpg",
+    "menu": []
+  }
+]
