@@ -10,7 +10,7 @@ const MenuItems = ({ restaurant }) => {
   console.log({ restaurant });
 
   return (
-    <div>
+    <div className=" px-6 md:px-2 lg:px-0">
       <div
         style={{
           backgroundImage: `url(${restaurant?.image})`,
@@ -49,7 +49,7 @@ const MenuItems = ({ restaurant }) => {
         </div>
       </div>
 
-      <div className=" space-y-16 ">
+      <div className=" space-y-16  ">
         {restaurant?.menu?.map((cat) => (
           <MenuCategory key={cat?.category} menu={cat} />
         ))}

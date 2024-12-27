@@ -60,7 +60,7 @@ const MenuCart = ({ item, index }) => {
     <div className="bg-white p-3 rounded-2xl">
       <figure>
         <img
-          className=" mix-blend-multiply bg-transparent h-[130px] w-full rounded-2xl"
+          className=" mix-blend-multiply bg-transparent h-[190px] md:h-[130px] w-full rounded-2xl"
           src={img}
           alt=""
         />

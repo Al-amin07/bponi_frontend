@@ -16,7 +16,8 @@ const MenuList = ({ restaurant }) => {
     <div className="fixed w-64">
       <Link
         to={"/"}
-        className=" flex  w-full rounded-2xl items-center gap-2 py-2 px-4 bg-white mb-10 hover:bg-slate-100 font-semibold"
+        className=" py-3 px-4 text-lg font-medium mb-4 rounded-lg bg-white flex gap-2 items-center hover:bg-slate-200 w-full text-left"
+        // className=" flex  w-full rounded-2xl items-center gap-2 py-2 px-4 bg-white mb-10 hover:bg-slate-100 font-semibold"
       >
         {" "}
         <FaArrowLeft size={20} /> All Restaurent

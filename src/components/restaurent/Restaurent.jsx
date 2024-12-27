@@ -28,10 +28,10 @@ const Restaurent = () => {
     );
   return (
     <div className="bg-white">
-      <div className=" container mx-auto mt-20  px-12 min-h-screen">
+      <div className=" container mx-auto mt-20 px-8  md:px-12 min-h-screen">
         <Shops />
-        <div className=" my-10 py-2 px-4 rounded-2xl flex justify-between items-center bg-[#F5F4F2]">
-          {categories.map((el) => (
+        <div className=" my-10 py-2 px-4 rounded-2xl flex overflow-x-auto justify-between items-center bg-[#F5F4F2]">
+          {categories?.map((el) => (
             <button
               onClick={() => setCategory(el)}
               className={`font-semibold py-3 rounded-2xl px-4 hover:bg-white ${
@@ -42,17 +42,17 @@ const Restaurent = () => {
               {el}
             </button>
           ))}
-          <button className="font-semibold py-3 rounded-2xl px-4 hover:bg-white">
+          <button className="font-semibold hidden md:inline-block py-3 rounded-2xl px-4 hover:bg-white">
             <IoShareSocialOutline size={24} className="inline-block" /> Sorting
           </button>
         </div>
         <Offer restaurents={restaurents?.slice(0, 10)} />
 
         <div className=" mt-12">
-          <h2 className=" text-[42px] font-bold mb-2">Restaurent</h2>
+          <h2 className="text-4xl lg:text-[42px] font-bold mb-2">Restaurent</h2>
           {restaurents?.length !== 0 ? (
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-              {restaurents.map((el) => (
+              {restaurents?.map((el) => (
                 <ReataurentCart key={el?._id} restaurent={el} />
               ))}
             </div>

@@ -11,7 +11,7 @@ const ReataurentCart = ({ restaurent }) => {
         src={restaurent?.image}
         alt="Salam Bro"
         referrerPolicy="no-referrer"
-        className="w-full hover:opacity-90 rounded-2xl h-32 object-cover"
+        className="w-full hover:opacity-90 rounded-2xl h-44 md:h-32 object-cover"
       />
 
       <div className="p-2">

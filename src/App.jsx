@@ -29,7 +29,7 @@ const App = () => {
 
   if (isLoading)
     return (
-      <div className=" h-[400px] flex items-center justify-center">
+      <div className="  min-h-screen flex items-center justify-center">
         <p>Loading.....</p>
       </div>
     );

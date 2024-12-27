@@ -12,7 +12,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 const Offer = ({ restaurents }) => {
   return (
     <div className=" relative ">
-      <h2 className=" text-[42px] font-bold mb-2">Offers</h2>
+      <h2 className=" text-4xl lg:text-[42px] font-bold mb-2">Offers</h2>
       {restaurents?.length !== 0 ? (
         <div>
           <Swiper
@@ -51,7 +51,7 @@ const Offer = ({ restaurents }) => {
             modules={[Navigation, Pagination, HashNavigation, Autoplay]}
             className="mySwiper  "
           >
-            {restaurents.map((menu, index) => (
+            {restaurents?.map((menu, index) => (
               <SwiperSlide key={index} className="  select-none  bg-white">
                 <RestaurentCart restaurent={menu} />
               </SwiperSlide>

@@ -9,7 +9,7 @@ import { shops } from "./shop";
 const Shops = () => {
   return (
     <div className=" ">
-      <h2 className=" text-[42px] font-bold mb-2">Shops</h2>
+      <h2 className=" text-4xl lg:text-[42px] font-bold mb-2">Shops</h2>
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
