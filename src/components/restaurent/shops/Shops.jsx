@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { shops } from "./shop";
+import { FaCar } from "react-icons/fa6";
 
 const Shops = () => {
   return (
@@ -41,18 +42,22 @@ const Shops = () => {
           },
         }}
         modules={[Navigation, Pagination, Autoplay]}
-        className="mySwiper  h-[130px]"
+        className="mySwiper  h-[200px] lg:h-[130px] rounded-2xl"
       >
         {shops.map((item, index) => (
           <SwiperSlide
             key={index}
-            className={`cursor-pointer rounded-2xl bg-base-200  h-[300px] select-none `}
+            className={`cursor-pointer relative rounded-2xl bg-base-200  h-[300px] select-none `}
           >
             <img
               src={item?.img}
               className="h-full w-full mix-blend-multiply"
               alt=""
             />
+            <div className=" absolute bg-black rounded-l-2xl rounded-b-2xl  text-white z-20 right-0 bottom-0 flex gap-2 items-center py-[6px] px-3 opacity-70">
+              <FaCar className="" size={18} />
+              <span className=" ">{item?.duration}</span>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

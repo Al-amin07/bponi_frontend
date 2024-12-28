@@ -5,6 +5,7 @@ import { GiInfo } from "react-icons/gi";
 
 import { IoIosStar } from "react-icons/io";
 import MenuCategory from "./MenuCategory";
+import { PiFlowerFill } from "react-icons/pi";
 
 const MenuItems = ({ restaurant }) => {
   console.log({ restaurant });
@@ -48,7 +49,12 @@ const MenuItems = ({ restaurant }) => {
           </div>
         </div>
       </div>
-
+      <div className=" py-3 px-3 mb-6 flex items-center gap-4 bg-[#E4F2DC] rounded-xl">
+        <PiFlowerFill className=" text-green-600" size={42} />
+        <p className=" text-[#72AA52] font-semibold ">
+          Free delivery – on any order
+        </p>
+      </div>
       <div className=" space-y-16  ">
         {restaurant?.menu?.map((cat) => (
           <MenuCategory key={cat?.category} menu={cat} />
